@@ -72,24 +72,20 @@ body {
     .banner-row {
         flex-direction: column;
     }
-
     .banner-column {
         flex: none;
         width: 100%;
         height: 20vh;
     }
-
     .banner-content {
         flex-direction: row;
         height: 100%;
         width: 200%;
         animation: scrollBannerHorizontal 10s linear infinite;
     }
-
     .banner-content.reverse {
         animation-direction: reverse;
     }
-
     .banner-item {
         flex: none;
         width: 20%;
